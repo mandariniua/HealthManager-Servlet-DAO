@@ -1,0 +1,5 @@
+com\plakhotnyuk\manager\dao\UsersDAOImpl.class
+com\plakhotnyuk\manager\servlet\LoginUsersServlet.class
+com\plakhotnyuk\manager\servlet\AddUsersServlet.class
+com\plakhotnyuk\manager\bean\Users.class
+com\plakhotnyuk\manager\dao\UsersDAO.class
