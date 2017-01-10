@@ -16,6 +16,24 @@
   	<description></description>
   	<servlet-class>com.plakhotnyuk.manager.servlet.LoginUsersServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>LogOutUsersServlet</servlet-name>
+  	<display-name>LogOutUsersServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.plakhotnyuk.manager.LogOutUsersServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogOutServlet</servlet-name>
+  	<display-name>LogOutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.plakhotnyuk.manager.servlet.LogOutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DishAllViewServlet</servlet-name>
+  	<display-name>DishAllViewServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.plakhotnyuk.manager.servlet.DishAllViewServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>AddUsersServlet</servlet-name>
   	<url-pattern>/AddUsersServlet</url-pattern>
@@ -23,5 +41,17 @@
   <servlet-mapping>
   	<servlet-name>LoginUsersServlet</servlet-name>
   	<url-pattern>/LoginUsersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogOutUsersServlet</servlet-name>
+  	<url-pattern>/LogOutUsersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogOutServlet</servlet-name>
+  	<url-pattern>/LogOutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DishAllViewServlet</servlet-name>
+  	<url-pattern>/DishAllViewServlet</url-pattern>
   </servlet-mapping>
 </web-app>

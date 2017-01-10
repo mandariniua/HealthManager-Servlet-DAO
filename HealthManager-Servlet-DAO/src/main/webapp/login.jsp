@@ -13,6 +13,8 @@
 	<br>
 	Password<br><input type="text" name="password" placeholder="Password">
 	<br>
+	<a href="addUsers.jsp">Registred</a>
+	<br>
 	<input type="submit"/>
 </form>
 

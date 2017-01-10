@@ -1,5 +1,11 @@
 C:\Users\Коля\workspace\HealtManager\src\main\java\com\plakhotnyuk\manager\servlet\LoginUsersServlet.java
+C:\Users\Коля\workspace\HealtManager\src\main\java\com\plakhotnyuk\manager\servlet\LogOutServlet.java
 C:\Users\Коля\workspace\HealtManager\src\main\java\com\plakhotnyuk\manager\dao\UsersDAOImpl.java
+C:\Users\Коля\workspace\HealtManager\src\main\java\com\plakhotnyuk\manager\bean\Dish.java
+C:\Users\Коля\workspace\HealtManager\src\main\java\com\plakhotnyuk\manager\Main.java
+C:\Users\Коля\workspace\HealtManager\src\main\java\com\plakhotnyuk\manager\servlet\DishAllViewServlet.java
 C:\Users\Коля\workspace\HealtManager\src\main\java\com\plakhotnyuk\manager\dao\UsersDAO.java
 C:\Users\Коля\workspace\HealtManager\src\main\java\com\plakhotnyuk\manager\servlet\AddUsersServlet.java
 C:\Users\Коля\workspace\HealtManager\src\main\java\com\plakhotnyuk\manager\bean\Users.java
+C:\Users\Коля\workspace\HealtManager\src\main\java\com\plakhotnyuk\manager\dao\DishDAO.java
+C:\Users\Коля\workspace\HealtManager\src\main\java\com\plakhotnyuk\manager\dao\DishDAOImpl.java

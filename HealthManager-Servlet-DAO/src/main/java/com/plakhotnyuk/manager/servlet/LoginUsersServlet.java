@@ -29,7 +29,7 @@ public class LoginUsersServlet extends HttpServlet {
 			if(request.getParameter("email").equals(users.getEmail()) && request.getParameter("password").equals(users.getPassword())) {
 				request.getSession().setAttribute("users", users);
 				request.getSession().setAttribute("email", users.getEmail());
-				response.getWriter().write("nice");
+				response.sendRedirect("index.jsp");
 				return;
 			} else {
 				request.setAttribute("wrong", "Wrong password");

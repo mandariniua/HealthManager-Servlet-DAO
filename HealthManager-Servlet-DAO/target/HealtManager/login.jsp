@@ -9,9 +9,9 @@
 <body>
 
 <form action="LoginUsersServlet" method="post">
-	Email<br><input type="text" name="email">
+	Email<br><input type="text" name="email" placeholder="Email">
 	<br>
-	Password<br><input type="text" name="pasword">
+	Password<br><input type="text" name="password" placeholder="Password">
 	<br>
 	<input type="submit"/>
 </form>

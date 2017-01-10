@@ -1,5 +1,11 @@
 com\plakhotnyuk\manager\dao\UsersDAOImpl.class
+com\plakhotnyuk\manager\bean\Users.class
+com\plakhotnyuk\manager\dao\DishDAO.class
+com\plakhotnyuk\manager\servlet\LogOutServlet.class
+com\plakhotnyuk\manager\dao\UsersDAO.class
+com\plakhotnyuk\manager\dao\DishDAOImpl.class
 com\plakhotnyuk\manager\servlet\LoginUsersServlet.class
 com\plakhotnyuk\manager\servlet\AddUsersServlet.class
-com\plakhotnyuk\manager\bean\Users.class
-com\plakhotnyuk\manager\dao\UsersDAO.class
+com\plakhotnyuk\manager\servlet\DishAllViewServlet.class
+com\plakhotnyuk\manager\Main.class
+com\plakhotnyuk\manager\bean\Dish.class
