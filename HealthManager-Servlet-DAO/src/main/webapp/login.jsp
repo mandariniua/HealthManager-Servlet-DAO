@@ -4,19 +4,22 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<link rel="stylesheet" href="styleLogin.css">
+<title>Login</title>
 </head>
 <body>
 
-<form action="LoginUsersServlet" method="post">
-	Email<br><input type="text" name="email" placeholder="Email">
-	<br>
-	Password<br><input type="text" name="password" placeholder="Password">
-	<br>
-	<a href="addUsers.jsp">Registred</a>
-	<br>
-	<input type="submit"/>
-</form>
+<div class="login-page">
+  <div class="form">
+    </form>
+    <form action="LoginUsersServlet" method="post" class="login-form">
+      <input type="text" name="email" placeholder="email"/>
+      <input type="password" name="password" placeholder="password"/>
+      <button type="submit">login</button>
+      <p class="message">Not registered? <a href="addUsers.jsp">Create an account</a></p>
+    </form>
+  </div>
+</div>
 
 </body>
 </html>

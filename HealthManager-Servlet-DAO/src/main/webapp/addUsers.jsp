@@ -4,21 +4,22 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Create account</title>
+<link rel="stylesheet" href="styleLogin.css">
 </head>
 <body>
 
-<form action="AddUsersServlet" method="post">
-	Email <br><input type="text" name="email">
-	<br>
-	First Name <br>	<input type="text" name="firstName">
-	<br>
-	Second Name <br> <input type="text" name="secondName">
-	<br>
-	Password <br> <input type="password" name="password">
-	<br>
-	<input type="submit"/>
-</form>
+<div class="login-page">
+  <div class="form">
+    <form action="AddUsersServlet" method="post" class="login-form">
+      <input type="text" name="email" placeholder="email"/>
+      <input type="text" name="firstName" placeholder="firstName"/>
+      <input type="text" name="secondName" placeholder="secondName"/>
+      <input type="password" name="password" placeholder="password"/>
+      <button type="submit">create</button>
+    </form>
+  </div>
+</div>
 
 </body>
 </html>

@@ -29,7 +29,7 @@ public class AddUsersServlet extends HttpServlet {
 		
 		UsersDAO userDao = new UsersDAOImpl();
 		userDao.addUsers(users);
-		response.getWriter().write("susecufull");
+		response.sendRedirect("login.jsp");
 	}
 
 }
