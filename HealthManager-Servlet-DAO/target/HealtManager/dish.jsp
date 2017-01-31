@@ -8,7 +8,7 @@
 <title>All Dish</title>
 </head>
 <body>
-<%if(request.getAttribute("dishList") !=null) {
+<%if(request.getAttribute("dishList") ==null) {
 	response.sendRedirect("DishAllViewServlet");
 }
 	%>
@@ -22,8 +22,8 @@
 	
 	<c:forEach var="dish" items="${dishList}">
 				<tr><td><c:out value="${dish.id}"/></td>
-				<tr><td><c:out value="${dish.dishName}"/></td>
-				<tr><td><c:out value="${dish.kcal}"/></td>
+				<td><c:out value="${dish.dishName}"/></td>
+				<td><c:out value="${dish.kcal}"/></td>
 				</tr>
 				</c:forEach>
 	</table>
